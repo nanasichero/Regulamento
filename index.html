@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulamento Oficial - FC Mobile Championship</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        fcDark: '#070913',
+                        fcCard: '#0f172a',
+                        fcGold: '#f59e0b',
+                        fcGoldHover: '#d97706',
+                        fcNeon: '#00f2fe'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #070913;
+            color: #f8fafc;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fef08a 0%, #f59e0b 50%, #b45309 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border {
+            border-image: linear-gradient(to right, #f59e0b, #3b82f6) 1;
+        }
+        .glow-effect {
+            box-shadow: 0 0 25px rgba(245, 158, 11, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-fcDark min-h-screen flex flex-col justify-between selection:bg-amber-500 selection:text-white">
+
+    <!-- Header / Hero Section -->
+    <header class="relative overflow-hidden border-b border-slate-800 bg-slate-900/40 backdrop-blur-md">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent pointer-events-none"></div>
+        <div class="max-w-5xl mx-auto px-4 py-8 md:py-12 text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs md:text-sm font-semibold mb-4 uppercase tracking-wider">
+                <i class="fa-solid fa-trophy"></i> Temporada Oficial 2026
+            </div>
+            <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-3">
+                REGULAMENTO <span class="gold-gradient-text">FC MOBILE</span>
+            </h1>
+            <p class="text-slate-400 text-sm md:text-base max-w-2xl mx-auto">
+                Livro de regras oficial para o nosso campeonato entre amigos. Competitividade, fair play e diversão garantidas no gramado virtual!
+            </p>
+            
+            <div class="mt-6 flex flex-wrap justify-center gap-3">
+                <button onclick="copyForWhatsApp()" class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold px-6 py-3 rounded-xl shadow-lg shadow-amber-500/20 transition-all flex items-center gap-2 text-sm md:text-base active:scale-95">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Copiar para o WhatsApp
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto px-4 py-8 space-y-8 flex-grow w-full">
+
+        <!-- Section 1: Visão Geral do Torneio -->
+        <section class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 md:p-8 glow-effect backdrop-blur-sm transition-all hover:border-slate-700">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 text-xl font-bold">
+                    01
+                </div>
+                <div>
+                    <h2 class="text-xl md:text-2xl font-bold text-white">Visão Geral do Torneio</h2>
+                    <p class="text-xs md:text-sm text-slate-400">Formato, diretrizes e espírito da competição</p>
+                </div>
+            </div>
+            <div class="space-y-3 text-slate-300 text-sm md:text-base leading-relaxed pl-2 md:pl-16 border-l-2 border-amber-500/20">
+                <p>🏆 <strong>Formato:</strong> Disputa em pontos corridos ou eliminatórias (conforme chaveamento definido no grupo), com partidas de ida e volta.</p>
+                <p>🤝 <strong>Fair Play em Primeiro Lugar:</strong> O objetivo principal é a diversão e a resenha entre amigos. Comportamentos tóxicos ou antidesportivos não serão tolerados.</p>
+                <p>📱 <strong>Plataforma:</strong> Partidas realizadas exclusivamente no FC Mobile (modo Amistoso Direto).</p>
+            </div>
+        </section>
+
+        <!-- Section 2: Regras de Construção de Elenco -->
+        <section class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 md:p-8 glow-effect backdrop-blur-sm transition-all hover:border-slate-700">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold">
+                    02
+                </div>
+                <div>
+                    <h2 class="text-xl md:text-2xl font-bold text-white">Regras de Construção de Elenco</h2>
+                    <p class="text-xs md:text-sm text-slate-400">Limitações para equilibrar as partidas e valorizar o desafio</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pl-0 md:pl-16">
+                <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-amber-400 mb-1 flex items-center gap-2"><i class="fa-solid fa-gauge-high"></i> Teto de OVR</h3>
+                    <p class="text-slate-300 text-sm">O time titular deve respeitar o limite de OVR estabelecido para o torneio (ex: máximo OVR 98 ou 100), garantindo equidade técnica.</p>
+                </div>
+                <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-amber-400 mb-1 flex items-center gap-2"><i class="fa-solid fa-star"></i> Limite de Ícones</h3>
+                    <p class="text-slate-300 text-sm">Máximo de 2 cartas <em>Icon</em> ou <em>Heroes</em> no time titular. Dê espaço para cartas de eventos atuais e jogadores reais!</p>
+                </div>
+                <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800 md:col-span-2">
+                    <h3 class="font-bold text-amber-400 mb-1 flex items-center gap-2"><i class="fa-solid fa-shirt"></i> Tema de Elenco (Opcional por Rodada)</h3>
+                    <p class="text-slate-300 text-sm">Em rodadas especiais, poderemos exigir temas específicos como: apenas jogadores de uma mesma liga (ex: Brasileirão ou Premier League) ou nacionalidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Regras de Gameplay & Fair Play -->
+        <section class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 md:p-8 glow-effect backdrop-blur-sm transition-all hover:border-slate-700">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xl font-bold">
+                    03
+                </div>
+                <div>
+                    <h2 class="text-xl md:text-2xl font-bold text-white">Gameplay & Fair Play</h2>
+                    <p class="text-xs md:text-sm text-slate-400">Postura em campo e combate a jogadas apelativas</p>
+                </div>
+            </div>
+            <div class="space-y-3 text-slate-300 text-sm md:text-base leading-relaxed pl-2 md:pl-16 border-l-2 border-emerald-500/20">
+                <p>🚫 <strong>Proibição de Cross Spamming Excessivo:</strong> Correr sempre até a linha de fundo para cruzar para cabeceadores altos repetidas vezes estraga a experiência. Varie suas jogadas ofensivas!</p>
+                <p>🎮 <strong>Uso Consciente de Skill Moves:</strong> Evite o spam mecânico de dribles automáticos seguidos que anulam defesas inteiras sem critério.</p>
+                <p>⏱️ <strong>Antijogo e Cera:</strong> Proibido tocar a bola excessivamente na defesa apenas para gastar o tempo (cera prolongada). Jogue com dinamismo!</p>
+            </div>
+        </section>
+
+        <!-- Section 4: Sistema de Pontuação e Prazos -->
+        <section class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 md:p-8 glow-effect backdrop-blur-sm transition-all hover:border-slate-700">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 text-xl font-bold">
+                    04
+                </div>
+                <div>
+                    <h2 class="text-xl md:text-2xl font-bold text-white">Pontuação e Prazos</h2>
+                    <p class="text-xs md:text-sm text-slate-400">Tabela de pontos, critérios de desempate e envio de resultados</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pl-0 md:pl-16">
+                <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-amber-400 mb-2 flex items-center gap-2"><i class="fa-solid fa-calculator"></i> Pontuação</h3>
+                    <ul class="space-y-1 text-slate-300 text-sm">
+                        <li>✅ <strong>Vitória no tempo normal:</strong> 3 pontos</li>
+                        <li>🤝 <strong>Empate:</strong> 1 ponto</li>
+                        <li>❌ <strong>Derrota:</strong> 0 pontos</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-amber-400 mb-2 flex items-center gap-2"><i class="fa-solid fa-clock"></i> Prazos e Evidências</h3>
+                    <p class="text-slate-300 text-sm mb-2">As partidas de cada rodada devem ser concluídas dentro do prazo estipulado no grupo.</p>
+                    <p class="text-slate-300 text-sm">📸 O vencedor deve enviar o print do placar final e estatísticas no grupo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Share Callout Box -->
+        <div class="bg-gradient-to-r from-amber-500/10 via-slate-900 to-amber-500/10 border border-amber-500/30 rounded-2xl p-6 text-center space-y-4">
+            <h3 class="text-lg font-bold text-white">Tudo pronto para começar?</h3>
+            <p class="text-sm text-slate-300 max-w-md mx-auto">Clique no botão abaixo para copiar o regulamento formatado com emojis e envie diretamente no grupo de WhatsApp da galera!</p>
+            <button onclick="copyForWhatsApp()" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-8 py-3 rounded-xl shadow-lg transition-all inline-flex items-center gap-2 text-sm md:text-base active:scale-95">
+                <i class="fa-brands fa-whatsapp text-lg"></i> Copiar Regulamento Completo
+            </button>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 bg-slate-900/20">
+        <p>FC Mobile Championship Rulebook &bull; Desenvolvido para Ligas e Campeonatos Particulares</p>
+    </footer>
+
+    <!-- Custom Toast Notification Modal -->
+    <div id="toast" class="fixed bottom-6 right-6 transform translate-y-20 opacity-0 transition-all duration-300 bg-slate-900 border border-amber-500 text-white px-6 py-3 rounded-xl shadow-2xl flex items-center gap-3 z-50 pointer-events-none">
+        <i class="fa-solid fa-circle-check text-amber-400 text-lg"></i>
+        <span id="toast-message" class="text-sm font-medium">Regulamento copiado com sucesso!</span>
+    </div>
+
+    <script>
+        function copyForWhatsApp() {
+            const textToCopy = 
+`🏆 *REGULAMENTO OFICIAL - FC MOBILE CHAMPIONSHIP* 🏆
+
+*01. VISÃO GERAL DO TORNEIO*
+• Disputa em pontos corridos ou eliminatórias com partidas de ida e volta.
+• Fair play em primeiro lugar: diversão e respeito entre amigos!
+• Plataforma: FC Mobile (Amistoso Direto).
+
+*02. REGRAS DE CONSTRUÇÃO DE ELENCO*
+• Teto de OVR: Respeitar o limite de OVR estabelecido para o torneio.
+• Limite de Ícones: Máximo de 2 cartas Icon ou Heroes no time titular.
+
+*03. GAMEPLAY & FAIR PLAY*
+• Proibido Cross Spamming excessivo (correr sempre para cruzar na área de forma mecânica).
+• Uso consciente de Skill Moves (evitar spam de dribles automáticos).
+• Proibido cera prolongada e antijogo.
+
+*04. PONTUAÇÃO E PRAZOS*
+• Vitória no tempo normal = 3 pontos
+• Empate = 1 ponto
+• Derrota = 0 pontos
+• Enviar print do placar final e estatísticas no grupo após a partida.
+
+Preparados? Que vença o melhor! ⚽🔥`;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    showToast("Regulamento copiado para a área de transferência!");
+                }).catch(() => {
+                    fallbackCopyText(textToCopy);
+                });
+            } else {
+                fallbackCopyText(textToCopy);
+            }
+        }
+
+        function fallbackCopyText(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.position = "fixed";  // Avoid scrolling to bottom
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    showToast("Regulamento copiado com sucesso!");
+                } else {
+                    showToast("Erro ao copiar. Tente novamente.");
+                }
+            } catch (err) {
+                showToast("Erro ao copiar.");
+            }
+            document.body.removeChild(textArea);
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-message');
+            toastMsg.innerText = message;
+            toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+            toast.classList.add('translate-y-0', 'opacity-100');
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
+```
